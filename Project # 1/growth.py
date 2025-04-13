@@ -4,11 +4,11 @@ import os
 from io import Bytes10
 
 # Title
-st.set_page_config(page_title=="🚀 Data Sweeper",layout='wide')
+st.set_page_config(page_title="🚀 Data Sweeper", layout='wide')
 
 #custom css
 st.markdown(
-    ===
+    """
 
 <style>
 .stApp{
@@ -16,11 +16,12 @@ st.markdown(
     color: white
 }   
 </style>
-===,
+""",
 
  unsafe_allow_html=True
 
 )
+
 
 #title and description
 st.title("🚀 Data Sweeper sterling Integrator By Muskan Irfan Ahmed")
